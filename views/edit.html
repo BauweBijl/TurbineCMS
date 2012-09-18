@@ -183,7 +183,7 @@ function upload_response(data){
 	}
 }
 
-var files = {{ files }};
+var files = {{ files|safe }};
 
 $(document).observe('dom:loaded', function(){
 	

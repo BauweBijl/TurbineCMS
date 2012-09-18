@@ -7,13 +7,13 @@
 	>
 
 <channel>
-	<title><![CDATA[{{ title }}]]></title>
+	<title><![CDATA[{{ title|safe }}]]></title>
 	<atom:link href="http://{{ domain }}/feed" rel="self" type="application/rss+xml" />
 	<link><![CDATA[http://{{ domain }}/]]></link>
-	<description><![CDATA[{{ title }} - {{ description }}]]></description>
+	<description><![CDATA[{{ title|safe }} - {{ description|safe }}]]></description>
 	<pubDate><![CDATA[{{ pubdate }}]]></pubDate>
 
-	<generator>http://www.turbinecms.com/</generator>
+	<generator>http://www.bauwe.nl/</generator>
 
 	<language>en</language>
 
@@ -25,7 +25,7 @@
 			<link><![CDATA[http://{{ domain }}/page/{{ item.url }}]]></link>
 			<pubDate><![CDATA[{{ item.date }}]]></pubDate>
 			<author><![CDATA[{{ title }}]]></author>
-			<content:encoded><![CDATA[{{ item.content }}]]></content:encoded>
+			<content:encoded><![CDATA[{{ item.content|safe }}]]></content:encoded>
 		</item>
 	
 {% endfor %}

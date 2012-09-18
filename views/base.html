@@ -38,7 +38,7 @@
         {% if page.owner %}<br /><small>{{ page.created|date:"l, j M. Y"}}</small>{% endif %}
         </h1>
 
-        <div>{{page.content}}</div>
+        <div>{{page.content|safe}}</div>
         
         {% if subpages %}
         	<div style="border-top: 1px #CCC"></div>
@@ -46,7 +46,7 @@
         		<div style="background: {% cycle #FAFAFA,#FFFFFF %}; padding: 10px;">
         			<h2><a href="/page/{{ subpage.url|escape }}">{{ subpage.title|escape }}</a><br />
         			<small>{{ subpage.created|date:"l, j M. Y"}}</small></h2>
-        			<div>{{ subpage.content|truncatewords_html:30 }}
+        			<div>{{ subpage.content|safe|truncatewords_html:30 }}
         			<a href="/page/{{ subpage.url|escape }}">read more...</a></div>
         		</div>
         	{% endfor %}

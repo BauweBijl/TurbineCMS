@@ -25,6 +25,9 @@
 # For details, see the TurbineCMS web site: http://www.turbinecms.com/
 
 ########################### IMPORT DECLARATIONS ###########################
+# make use of a current Django version in settings.py and appengine_config.py
+import os
+os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
 
 # HTTP related 
 import wsgiref.handlers

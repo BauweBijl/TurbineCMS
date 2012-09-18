@@ -1,0 +1,159 @@
+    body {
+        background: #FFF;
+        font-family:verdana; font-size:11px; line-height:160%;
+        margin: 0;
+        padding: 0;
+        color: #636362;
+    }
+
+    img {
+        border: 0;
+    }
+
+    #container {
+        width: 700px;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    #banner {
+        padding: 0;
+        margin-bottom: 0;
+        background-color: #73880A;
+    }
+
+    #content_div {
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    #footer {
+        clear: both;
+        padding: 0;
+        margin-top: 0;
+        font-family:verdana; 
+        font-size:10px; 
+        line-height:12px;
+        border-top: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+        background-color: #F0F0F0;
+    }
+
+    #logo {
+        margin: 0;
+        padding: 20px 0px 0px 30px;
+    }
+
+    #logo h1{
+        color: white;
+    }
+
+    #logo h1 a{
+        color: white;
+        text-decoration: none;    
+    }
+
+    p {
+        padding: 5px 10px 5px 10px;
+        color: #636362;
+    }
+
+    h3 {
+        padding: 5px 10px 5px 10px;
+        color: #636362;
+        font-size: 13px;
+    }
+
+    a {
+        color: #3366CC;
+    }
+
+    a:hover {
+        color: #78A400;
+    }
+
+    #navcontainer ul {
+        margin: 0;
+        padding: 5px 5px 0 0;
+        list-style-type: none;
+        float: right;
+    }
+
+    #navcontainer ul li { 
+        display: inline; 
+        border-bottom: 0;
+        padding: 0;
+    }
+
+    #navcontainer ul li a {
+        text-decoration: none;
+        display: block;
+        float: left;
+        padding: 3px 10px 6px 10px;
+        margin: 3px 2px;
+        color: #fff;
+        background: #30608F;
+        border:1px solid #F1F0F0;
+    }
+
+    #navcontainer ul li a:hover {
+        background: #F1F0F0;
+        color: #30608F;
+    }
+
+    .red {
+        color: red;
+    }
+
+    input, textarea {
+        background-color: #fff;
+        border: 1px solid #CECECE;
+        font-size: 12px;
+        padding: 3px;
+        color: #3366CC;
+    }
+
+    input:focus {
+        background-color: #EAEFFA;
+        border: 1px solid #CCC;
+    }
+
+    li {
+        list-style-type: none;
+        padding: 5px;
+        margin: 0;
+        border-bottom: 1px solid #CCC;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1{
+        font-size: 24px;
+        font-weight: normal;
+    }
+
+    h1 small{
+        font-size: 13px;
+    }
+    
+    h2{
+        font-size: 18px;
+        font-weight: normal;
+    }
+    
+    h2 small{
+        font-size: 12px;
+    }
+    
+    h2 a{
+    	text-decoration: none;
+    }
+    
+    h2 a:hover{
+    	text-decoration: underline;
+    }
